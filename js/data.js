@@ -35,8 +35,8 @@ export const questions = [
     number: '05',
     question: '첫 입사 날!<br>나의 첫 인사말은?',
     choices: [
-      { text: '안녕하세요ㅎㅎ 잘 부탁드려요~<br>(부끄러워 >///<)', value: 'ㅑ' },
-      { text: '안녕하세요! 제 이름은 ㅇㅇㅇ 이고, <br>제 취미는 ~ (빨리 친해져야지) ', value: 'e' }
+      { text: '안녕하세요ㅎㅎ 잘 부탁드려요~<br>(부끄러워 >///<)', value: '' },
+      { text: '안녕하세요! 제 이름은 ㅇㅇㅇ 이고, <br>제 취미는 ~ (빨리 친해져야지) ', value: '' }
     ]
   },
   {
@@ -120,7 +120,7 @@ export const results = [
     lectureImg: '/images/result_lecture3.png',
     lectureUrl: 'https://bit.ly/3DWlesG'
   },
-  
+
   {
     title: '인생은<br>한방!',
     character: '/images/result_character4.png',
