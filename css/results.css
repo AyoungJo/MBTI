@@ -60,3 +60,18 @@ body{
     border: 1px solid #FFE603;
     border-radius: 20px;
 }
+
+/* 모바일 반응형 디자인 적용 */
+@media (max-width:640px) {
+    .result .box{
+        height: 50px;
+        font-size: 22px;
+        padding: 20px 10px;
+    }
+    .result .jobs{
+        height: 160px;
+    }
+    .result .job{
+        font-size: 25px;
+    }
+}
